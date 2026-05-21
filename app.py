@@ -516,7 +516,7 @@ elif menu == "Model Performance":
         </div>
     """, unsafe_allow_html=True)
 
-    st.markdown('<div class="section-label">Regression — Grade Prediction</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-label">Grade Prediction</div>', unsafe_allow_html=True)
     m1, m2 = st.columns(2)
 
     with m1:
@@ -549,11 +549,7 @@ elif menu == "Model Performance":
         """, unsafe_allow_html=True)
 
     st.markdown('<hr class="divider">', unsafe_allow_html=True)
-    st.markdown("""
-        <div class="chart-note" style="margin-top:0;">
-            Detailed confusion matrices, ROC curves, and per-class F1 scores can be added here once model evaluation exports are available.
-        </div>
-    """, unsafe_allow_html=True)
+    
 
 # =====================================================
 # ABOUT
